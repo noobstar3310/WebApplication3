@@ -15,7 +15,7 @@
         <div>
 
             Username:
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
 
         </div>
         Password:
